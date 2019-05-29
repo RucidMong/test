@@ -71,8 +71,13 @@
     python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
 3. 변환된 keras model을 "model_data" 폴더로 이동
 
-### submodule 형태로 클론했으므로 model의 경로 변경 (yolo.py)
+### submodule 형태로 클론했으므로 model의 경로 변경
 
+    (demo.py)
+    033     #model_filename = 'model_data/mars-small128.pb'
+    034     model_filename = join(dirname(abspath(dirname(abspath(dirname(__file__))))), 'lib\\deep_sort_yolov3\\model_data\\mars-small128.pb')
+
+    (yolo.py)
     028     self.model_path = join(dirname(abspath(dirname(abspath(dirname(__file__))))), 'lib\\deep_sort_yolov3\\model_data\\yolo.h5')
     029     self.anchors_path = join(dirname(abspath(dirname(abspath(dirname(__file__))))), 'lib\\deep_sort_yolov3\\model_data\\yolo_anchors.txt')
     030     self.classes_path = join(dirname(abspath(dirname(abspath(dirname(__file__))))), 'lib\\deep_sort_yolov3\\model_data\\coco_classes.txt')
