@@ -2,7 +2,7 @@
 
 원본 원격저장소 : [deep_sort_yolov3](https://github.com/Qidian213/deep_sort_yolov3) (이하 DSY라고 함)
 
-## 버전 정보 요약
+# 버전 정보 요약
 
     Anacoda         : 4.6.11
     cuda            : 9.0
@@ -13,7 +13,7 @@
     Tensorflow-gpu  : 1.13.1
     Keras-gpu       : 2.2.4
 
-## 케라스 설치 및 데모 파일 실행
+### 케라스 설치 및 데모 파일 실행
 
     $ conda install keras-gpu
 
