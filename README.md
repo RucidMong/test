@@ -62,14 +62,14 @@
     tensorflow-gpu                          1.13.1-h0d30ee6_0 --> 1.12.0-h0d30ee6_0
     $ conda install tensorflow-gpu (업그레이드 - 최신버전 1.13)
 
-### cudatoolkit과 cudnn의 버전을 확인
+### ※ cudatoolkit과 cudnn의 버전을 확인
 
 ### YOLO model을 다운로드(1, 2 과정을 수행한 keras model 파일을 다운 가능)
 
-    1. [YOLO 사이트](https://pjreddie.com/darknet/yolo/)에 접속하여 Yolov3 weights 를 다운
-    2. Darknet YOLO model을 keras model로 변환 : [Yolov3의 변환된 keras model 다운로드](https://drive.google.com/file/d/1uvXFacPnrSMw6ldWTyLLjGLETlEsUvcE/view)
-        python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
-    3. 변환된 keras model을 "model_data" 폴더로 이동
+1. [YOLO 사이트](https://pjreddie.com/darknet/yolo/)에 접속하여 Yolov3 weights 를 다운
+2. Darknet YOLO model을 keras model로 변환 : [Yolov3의 변환된 keras model 다운로드](https://drive.google.com/file/d/1uvXFacPnrSMw6ldWTyLLjGLETlEsUvcE/view)
+    python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
+3. 변환된 keras model을 "model_data" 폴더로 이동
 
 ### submodule 형태로 클론했으므로 model의 경로 변경 (yolo.py)
 
