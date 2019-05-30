@@ -4,7 +4,7 @@
 
 ### 버전 정보 요약
 
-[Image](https://www.evernote.com/shard/s542/sh/5b63b8c5-d6cb-47e7-9730-e22da4504732/7d9c8433ddbc28fd/res/3df21b2c-35da-4213-beef-0c0b24ff9c77.png)
+!(https://www.evernote.com/shard/s542/sh/5b63b8c5-d6cb-47e7-9730-e22da4504732/7d9c8433ddbc28fd/res/3df21b2c-35da-4213-beef-0c0b24ff9c77.png)
 
 
     Anacoda         : 4.6.11
