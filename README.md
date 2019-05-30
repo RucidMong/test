@@ -4,7 +4,15 @@
 
 ### 버전 정보 요약
 
+<<<<<<< HEAD
 [](https://www.evernote.com/shard/s542/sh/5b63b8c5-d6cb-47e7-9730-e22da4504732/7d9c8433ddbc28fd/res/3df21b2c-35da-4213-beef-0c0b24ff9c77.png)
+=======
+<<<<<<< HEAD
+![Test](https://www.evernote.com/shard/s542/sh/5b63b8c5-d6cb-47e7-9730-e22da4504732/7d9c8433ddbc28fd/res/3df21b2c-35da-4213-beef-0c0b24ff9c77.png)
+=======
+    ![Test](https://www.evernote.com/shard/s542/sh/5b63b8c5-d6cb-47e7-9730-e22da4504732/7d9c8433ddbc28fd/res/3df21b2c-35da-4213-beef-0c0b24ff9c77.png)
+>>>>>>> 8059eee06a1717b77452f5820b4dd01aaa3093f1
+>>>>>>> 23aa01d35cc22c4971f62952a7003fad2893701a
 
     Anacoda         : 4.6.11
     cuda            : 9.0
