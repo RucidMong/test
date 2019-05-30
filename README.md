@@ -4,6 +4,8 @@
 
 ### 버전 정보 요약
 
+    ![Test](https://www.evernote.com/shard/s542/sh/5b63b8c5-d6cb-47e7-9730-e22da4504732/7d9c8433ddbc28fd/res/3df21b2c-35da-4213-beef-0c0b24ff9c77.png)
+
     Anacoda         : 4.6.11
     cuda            : 9.0
     cudnn           : 7.0.5
@@ -12,6 +14,14 @@
     OpenCV          : 4.0.0.21
     Tensorflow-gpu  : 1.13.1
     Keras-gpu       : 2.2.4
+
+### 서브모듈로 추가된 deep_sort_yolov3을 로컬저장소에 클론하기
+
+    $ cd action              # 루트디렉토리로 이동
+
+    $ git submodule init     # 비어있는(새로 추가된) 서브모듈 초기화(등록)
+    
+    $ git submodule update   # 새로 등록된 서브모듈을 클론
 
 ### 케라스 설치 및 데모 파일 실행
 
